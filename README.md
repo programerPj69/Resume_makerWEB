@@ -56,4 +56,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 - Special thanks to the creators of jsPDF for providing a great library for PDF generation.
 
 ### OutPut
-![output]()
+![output](prieview/preview.png)
