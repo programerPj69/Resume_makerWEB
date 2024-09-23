@@ -2,6 +2,8 @@
 
 A simple and user-friendly web application that allows users to create and download their resumes using the Atlas template.
 
+## online View
+- https://programerpj69.github.io/Resume_makerWEB/
 ## Features
 
 - **User Input Forms**: Collects personal, educational, and professional experience information.
