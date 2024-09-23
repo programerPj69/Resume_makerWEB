@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder - Atlas Template</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Resume Builder</h1>
+
+        <form id="resumeForm">
+            <h2>Personal Information</h2>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Your Email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" placeholder="Your Phone Number" required>
+
+            <h2>Education</h2>
+            <label for="education">Degree:</label>
+            <input type="text" id="education" placeholder="Your Degree" required>
+
+            <label for="institution">Institution:</label>
+            <input type="text" id="institution" placeholder="Your Institution" required>
+
+            <label for="year">Graduation Year:</label>
+            <input type="text" id="year" placeholder="Year" required>
+
+            <h2>Experience</h2>
+            <label for="experience">Job Title:</label>
+            <input type="text" id="experience" placeholder="Job Title" required>
+
+            <label for="company">Company:</label>
+            <input type="text" id="company" placeholder="Company Name" required>
+
+            <label for="description">Job Description:</label>
+            <textarea id="description" placeholder="Describe your role" required></textarea>
+
+            <button type="submit">Generate Resume</button>
+        </form>
+
+        <h2>Resume Preview</h2>
+        <div id="resumePreview" class="resume-template"></div>
+
+        <button id="downloadBtn">Download Resume as PDF</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
